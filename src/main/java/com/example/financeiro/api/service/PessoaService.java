@@ -28,10 +28,16 @@ public class PessoaService {
 	}
 
 	public Pessoa buscarPessoaId(Long id) {
+		/*
+		 * Pessoa pessoaSalva = pessoaRepository.findById(id).orElseThrow(() -> new
+		 * EmptyResultDataAccessException(1)); if (pessoaSalva == null) { throw new
+		 * EmptyResultDataAccessException(1); } return pessoaSalva;
+		 * 
+		 * }
+		 */
+
 		Pessoa pessoaSalva = pessoaRepository.findById(id).orElseThrow(() -> new EmptyResultDataAccessException(1));
-		if (pessoaSalva == null) {
-			throw new EmptyResultDataAccessException(1);
-		}
+
 		return pessoaSalva;
 	}
 
