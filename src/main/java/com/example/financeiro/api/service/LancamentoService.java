@@ -55,7 +55,7 @@ public class LancamentoService {
 	}
 
 	private Lancamento buscarLancamentoExistente(Long id) {
-/* 		Optional<Lancamento> lancamentoSalvo = lancamentoRepository.findById(codigo);
+/* 		Optional<Lancamento> lancamentoSalvo = lancamentoRepository.findById(id);
 		if (lancamentoSalvo.isEmpty()) {
 			throw new IllegalArgumentException();
 		} */

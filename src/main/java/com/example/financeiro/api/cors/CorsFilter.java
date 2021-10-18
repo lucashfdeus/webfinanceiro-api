@@ -21,7 +21,7 @@ import com.example.financeiro.api.config.property.FinanceiroApiProperty;
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class CorsFilter implements Filter {
 	
-	//private String originPermitida = "http://localhost:8000"; // TODO: Configurar para diferentes ambientes
+	//private String originPermitida = "http://localhost:4200"; // TODO: Configurar para diferentes ambientes
 	@Autowired
 	private FinanceiroApiProperty financeiroApiProperty;
 	

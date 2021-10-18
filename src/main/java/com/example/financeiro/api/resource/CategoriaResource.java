@@ -84,7 +84,7 @@ public class CategoriaResource {
 //	outra forma de fazer o método para error 404.
 
 //	@GetMapping("/{id}")
-//	public ResponseEntity<Categoria>buscarPeloCodigo(@PathVariable Long id) {
+//	public ResponseEntity<Categoria>buscarPeloId(@PathVariable Long id) {
 //		 Categoria categoria = categoriaRepository.findById(id).orElse(null);
 //		 return categoria != null ? ResponseEntity.ok(categoria) : ResponseEntity.notFound().build();
 //	}
